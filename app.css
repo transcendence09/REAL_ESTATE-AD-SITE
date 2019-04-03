@@ -113,10 +113,10 @@ div i.fas{
     height: 400px !important;
     }
 section.py-5{
-    background-image: url('img/parlour.jpg');
+    background-image: url('img/style.jpg');
     background-size: cover;
     background-position: center;
-    
+    opacity: 1;
 }
 section.height-4 {
     background-image: url('img/red-Kitchen.jpg');
@@ -151,8 +151,18 @@ div.footer-bottom{
 }
 
 
-
-
+section.h-6{
+    height: 30vh;
+    background-image: url('img/green.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.80;
+    
+}
+h5.text-center{
+    color: purple;
+}
 
 
 
