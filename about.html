@@ -27,8 +27,8 @@
         <div class="row">
             <!--LOGO-->
             <div class="col-sm-4">
-                <a href="#">
-                    <img class="img-fluid pb-4" src="img/IMG_20190323_123821_796.jpg" alt="logo">
+                <a href="index.html">
+                    <img class="img-fluid pb-5" src="img/IMG_20190323_123821_796.jpg" alt="logo">
                 </a>
             </div>
             <!--End of LOGO-->
@@ -55,17 +55,25 @@
     </button>
     <div id="my-nav" class="collapse navbar-collapse">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item  px-5">
+            <li class="nav-item px-5">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active px-5">
+            <li class="nav-item px-5 active">
                 <a class="nav-link" href="about.html" target="_self" tabindex="-1" aria-disabled="true">About</a>
             </li>
-            <li class="nav-item px-5">
-                <a class="nav-link" href="properties.html" tabindex="-1" aria-disabled="true">Properties</a>
-            </li>
-            <li class="nav-item px-5">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+           <li class="nav-item dropdown px-5">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Properties
+               </a>
+               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                   <a class="dropdown-item font-weight-bold" href="properties.html">Houses</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item font-weight-bold" href="properties.html">Land</a>
+               </div>
+           </li>
+            <li class="nav-item px-5 dropdown">
+                <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
             </li>
         </ul>
     </div>
@@ -124,22 +132,22 @@
             <div class="card">
                 <img src="img/2.png" class="card-img-top" alt="housing-image">
                 <div class="card-body ">
-                    <h5 class="card-title text-uppercase">affordable housing</h5>
-                    <p class="card-text p-0 text-dark">Our houses are uniquely affordable for all.</p>
+                    <h5 class="card-title text-uppercase">Modern Houses</h5>
+                    <p class="card-text p-0 text-dark"></p>
                 </div>
             </div>
             <div class="card">
-                <img src="img/3.png" class="card-img-top set2" alt="easy-payment-option-image">
+                <img src="img/greatLocation.jpg" class="card-img-top set2" alt="easy-payment-option-image">
                 <div class="card-body">
-                    <h5 class="card-title text-uppercase">easy payment options</h5>
-                    <p class="card-text text-dark">Flexible payment option to ease customers need.</p>
+                    <h5 class="card-title text-uppercase">Great Location</h5>
+                    <p class="card-text text-dark"></p>
                 </div>
             </div>
             <div class="card">
-                <img src="img/4.png" class="card-img-top" alt="quick-delivery-image">
+                <img src="img/29-296503_customer-satisfaction.png" class="card-img-top img-fluid" alt="quick-delivery-image">
                 <div class="card-body">
-                    <h5 class="card-title text-uppercase">Quick delivery</h5>
-                    <p class="card-text text-dark">We deliver properties timely and with quality</p>
+                    <h5 class="card-title text-uppercase mt-3 h6">Customer Satisfaction</h5>
+                    <p class="card-text text-dark"></p>
                 </div>
             </div>
         </div>
@@ -156,7 +164,7 @@
             <i class="fas fa-map-marker-alt pr-3"></i>
             <span class="">20 Emeka Nzom Street, Greenfield Estate; Ago-Palace way, Okota. Lagos.</span>
         </div>
-        <div class="col-12 text-white my-4">
+        <div class="col-12 text-white my-4" id = "contact">
             <i class="fas fa-phone pr-2"></i>
             <span>(+234)0813 279 9277</span>
         </div>
@@ -171,12 +179,12 @@
 
 
  <div class="footer-bottom bg-dark pt-3 text-white">
-     <hr class="text-white">
+   <hr class="bg-light">
      <div class="container-fluid">
          <div class="row">
              <div class="col-12">
                  <div class="copyright text-center small m-0 ">
-                     <p>Copyright &copy; 2019 <a href="#" target="_blank"><b class="text-success">The Athenian Coder
+                     <p>Copyright &copy; 2019 <a href="#" target="_blank"><b class="text-warning">The Athenian Coder
                     </b></a>. All rights reserved.</p>
                  </div>
              </div>
