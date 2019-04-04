@@ -1,9 +1,13 @@
+
+html {
+        scroll-behavior: smooth;
+    }
+
 body{
     font-family: 'Raleway',
     sans-serif;
     margin: 0;
     padding: 0;
-    scroll: smooth;
     /*background-image: url(img/mountain.jpg) ;*/
 }
 a.nav-item{
@@ -52,11 +56,11 @@ a.nav-link:hover{
      height: 623px;
      max-height: 622px;
  }
- a .img-fluid{
+ a img.img-fluid{
      width: auto;
      height: 148px;
      max-height: 148px;
-     margin-bottom: 16%;
+     margin-bottom: 17% !important;
  }
  .row{
      margin: 0;
@@ -180,6 +184,8 @@ h5.text-center{
      }
      a img.img-fluid{
          margin-bottom: 3%;
+         height: 118px;
+         width: auto;
      }
      #display1, #display2{
          display: none;
@@ -196,5 +202,8 @@ h5.text-center{
          padding-left: 15px;
          margin-right: auto;
          margin-left: auto;
+     }
+     a img.mb-5{
+         margin-bottom: 33px;
      }
  }
