@@ -206,4 +206,11 @@ h5.text-center{
      a img.mb-5{
          margin-bottom: 33px;
      }
+     #card-shrink{
+         width: 84%;
+         padding-right: 15px;
+         padding-left: 15px;
+         margin-right: auto;
+         margin-left: auto;
+     }
  }
