@@ -167,8 +167,12 @@ section.h-6{
 h5.text-center{
     color: purple;
 }
-
-
+/*New feature to be added*/
+.tiny-divider {
+    border-top: 3px solid purple;
+    margin: 13px auto;
+    width: 4rem;
+}
 
 
 /*mediaQueries*/
