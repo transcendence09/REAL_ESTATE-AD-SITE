@@ -53,7 +53,7 @@ a.nav-link:hover{
 
  .carousel-item img {
      width: auto;
-     height: 623px;
+     height: 623px; 
      max-height: 622px;
  }
  a img.img-fluid{
@@ -143,7 +143,7 @@ img.set2{
 
 div.bg-dark{
     background-color: black !important;
-    opacity: 0.9 !important;
+    /*opacity: 0.9 !important;*/
 }
 
 .navbar-nav li:hover>.dropdown-menu {
@@ -174,6 +174,30 @@ h5.text-center{
     width: 4rem;
 }
 
+section .text-light{
+    font-size: 50px;
+}
+
+div img.img-fluid{
+    width: 100%;
+}
+/*img#shrinked-modal-img-6,
+img#shrinked-modal-img-7,
+img#shrinked-modal-img-8,
+img#shrinked-modal-img-9,
+img#shrinked-modal-img-10,
+img#shrinked-modal-img-11 {
+    height: 355px !important;
+    max-height: 422px;
+}
+*/
+
+
+
+div.carousel-item .shrinked-modal-img{
+    height: 320 !important;
+    max-height: 322px;
+}
 
 /*mediaQueries*/
  @media only screen and (max-width: 600px) {
@@ -183,7 +207,7 @@ h5.text-center{
      }
      .carousel-item img {
          width: auto;
-         height: 425px;
+         height: 325px;
          max-height: 425px;
      }
      a img.img-fluid{
@@ -217,4 +241,22 @@ h5.text-center{
          margin-right: auto;
          margin-left: auto;
      }
+#about-img {
+    width: 100%;
+    max-width: 100%;
+    height: 200px !important; 
+}
+.pt-3, .py-3 {
+    padding-top: 2rem!important;
+}
+section .text-light{
+    font-size: 30px;
+}
+.modal-body{
+    color: black;
  }
+ img#shrinked-modal-img {
+    height: 258px !important;
+    max-height: 422px;
+}
+}
