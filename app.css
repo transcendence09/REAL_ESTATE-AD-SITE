@@ -179,7 +179,7 @@ section .text-light{
 }
 
 div img.img-fluid{
-    width: 100%;
+    width: auto;
 }
 /*img#shrinked-modal-img-6,
 img#shrinked-modal-img-7,
