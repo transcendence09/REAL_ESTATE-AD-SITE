@@ -230,6 +230,9 @@ div.grey{
      i.fas.fa-mobile-alt.fa-2x::before{
          display: none !important;
      }
+     i.fas.fa-envelope-open-text.fa-2x.pr-2{
+         display: none;
+     }
      .container {
          width: 76%;
          padding-right: 15px;
