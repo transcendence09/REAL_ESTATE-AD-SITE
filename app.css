@@ -146,9 +146,10 @@ div.bg-dark{
     /*opacity: 0.9 !important;*/
 }
 
-.navbar-nav li:hover>.dropdown-menu {
+/*.navbar-nav li:hover>.dropdown-menu {
     display: block;
 }
+*/
 
 div.footer-bottom{
     border-top-color: #fff !important;
@@ -164,6 +165,12 @@ section.h-6{
     opacity: 0.80;
     
 }
+/*section.height-6{
+    height: 100vh;
+    margin: 100px 0 160px 0;
+    
+}
+*/
 h5.text-center{
     color: purple;
 }
@@ -178,37 +185,36 @@ section .text-light{
     font-size: 50px;
 }
 
+/*Logo-Shrink*/
 div img.img-fluid{
     width: auto;
 }
-/*img#shrinked-modal-img-6,
-img#shrinked-modal-img-7,
-img#shrinked-modal-img-8,
-img#shrinked-modal-img-9,
-img#shrinked-modal-img-10,
-img#shrinked-modal-img-11 {
-    height: 355px !important;
-    max-height: 422px;
-}
-*/
-
-
 
 div.carousel-item .shrinked-modal-img{
     height: 320 !important;
     max-height: 322px;
 }
 
+div.grey{
+    background-color:#eee;
+}
+
+
+
+
+
+
+
 /*mediaQueries*/
  @media only screen and (max-width: 600px) {
      body {
-         background-color: rgb(119, 165, 180);
-         color: #fff;
+         background-color: rgb(232, 234, 235);
+         color: #000;
      }
      .carousel-item img {
          width: auto;
-         height: 325px;
-         max-height: 425px;
+         height: 280px;
+         max-height: 281px;
      }
      a img.img-fluid{
          margin-bottom: 3%;
@@ -258,5 +264,8 @@ section .text-light{
  img#shrinked-modal-img {
     height: 258px !important;
     max-height: 422px;
+}
+div.grey{
+    color: black;
 }
 }
