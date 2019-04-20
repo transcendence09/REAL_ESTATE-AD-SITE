@@ -75,13 +75,24 @@ a.nav-link:hover{
  }
 div h5.text-uppercase{
     color: purple;
-    font-size: 27px;
+    font-size: 26px;
     font-weight: 600;
     text-shadow: #fff;
     margin-bottom: 30px;
     font-family: 'Baloo Chettan',
     cursive;
 }
+/*div h6.text-uppercase {
+    color: purple;
+    font-size: 26px;
+    font-weight: 600;
+    text-shadow: #fff;
+    font-family: 'Baloo Chettan',
+        cursive;
+        margin-top: 29px;
+        padding: 0;
+}
+*/
 
 div p.text-uppercase{
     color: #fff;
@@ -165,6 +176,7 @@ section.h-6{
     opacity: 0.80;
     
 }
+
 /*section.height-6{
     height: 100vh;
     margin: 100px 0 160px 0;
@@ -192,18 +204,23 @@ div img.img-fluid{
 
 div.carousel-item .shrinked-modal-img{
     height: 320 !important;
-    max-height: 322px;
+    max-height: 320px;
 }
 
 div.grey{
     background-color:#eee;
 }
 
+div#lightbox img.img-fluid {
+    width: auto;
+    height: 425px;
+    max-height: 434px;
+    margin-bottom: 17% !important;
+}
 
-
-
-
-
+h5.text-capitalize.h4.text-center.font-weight-bold.pb-3{
+    padding-bottom: 0rem !important;
+}
 
 /*mediaQueries*/
  @media only screen and (max-width: 600px) {
@@ -250,25 +267,32 @@ div.grey{
          margin-right: auto;
          margin-left: auto;
      }
-#about-img {
-    width: 100%;
-    max-width: 100%;
-    height: 200px !important; 
-}
-.pt-3, .py-3 {
-    padding-top: 2rem!important;
-}
-section .text-light{
-    font-size: 30px;
-}
-.modal-body{
-    color: black;
- }
- img#shrinked-modal-img {
-    height: 258px !important;
-    max-height: 422px;
-}
-div.grey{
-    color: black;
-}
+    #about-img {
+        width: 100%;
+        max-width: 100%;
+        height: 200px !important; 
+    }
+    .pt-3, .py-3 {
+        padding-top: 2rem!important;
+    }
+    section .text-light{
+        font-size: 30px;
+    }
+    .modal-body{
+        color: black;
+    }
+    img#shrinked-modal-img {
+        height: 258px !important;
+        max-height: 422px;
+    }
+    div.grey{
+        color: black;
+    }
+    div#lightbox img.img-fluid {
+        width: auto;
+        height: 325px;
+        max-height: 324px;
+        margin-bottom: 17% !important;
+    }
+    
 }
