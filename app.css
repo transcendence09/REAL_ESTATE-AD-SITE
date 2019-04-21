@@ -207,7 +207,7 @@ div.carousel-item .shrinked-modal-img{
     max-height: 320px;
 }
 
-div.grey{
+div.grey, section.grey{
     background-color:#eee;
 }
 
